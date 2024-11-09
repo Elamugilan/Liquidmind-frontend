@@ -1,23 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "bootstrap/dist/css/bootstrap.min.css";
+import Dashboard from "./Components/Dashboard/Dashboard";
+import TallyIntro from "./Components/Tally_Intro/Tally_Intro";
+import TallySupport from "./Components/Tally_Support/Tally_Support";
+import SignUp from "./Components/SignUp/SignUp";
+import Vendor from "./Components/Vendor/Vendor";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <Dashboard /> */}
+      <TallyIntro />
+      {/* <TallySupport /> */}
+      {/* <SignUp /> */}
+      {/* <Vendor /> */}
     </div>
   );
 }
